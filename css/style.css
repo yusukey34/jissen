@@ -1,0 +1,146 @@
+@charset "UTF-8";
+body {
+  font-size: 18px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: yellowgreen;
+  padding: 1.5% 5%;
+}
+nav ul li {
+  font-size: 1.2em;
+}
+nav ul li a {
+  color: orange;
+  text-decoration: none;
+}
+#top {
+  height: 600px;
+  background: url(../img/IMG-8763.JPG) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.top_wrapper {
+  background-color: #007;
+  padding: 1.5%;
+  margin-right: 20%;
+}
+.top_wrapper h1 {
+  font-size: 1.8em;
+  color: #fff;
+}
+#service {
+  width: 80%;
+  margin: 5% auto;
+}
+.section_title {
+  font-size: 2.5em;
+  text-align: center;
+  color: #75d5ff;
+  margin-bottom: 5%;
+}
+.service_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service_left img {
+  width: 80%;
+  height: auto;
+}
+.service_right h3 {
+  font-size: 1.2em;
+  color: #75d5ff;
+  padding: 2.5% 0;
+}
+
+.service_right p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+}
+#news {
+  width: 80%;
+  margin: 5% auto;
+}
+.news_wrapper {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+#price {
+  width: 80%;
+  margin: 5% auto;
+}
+.price_wrapper table {
+  border: double #75d5ff 10px;
+  width: 100%;
+  text-align: center;
+}
+.price_wrapper table tr {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+.price_wrapper table th {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+
+.price_wrapper table td {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+#contact {
+  background: rgb(241, 241, 241);
+}
+#contact h2 {
+  padding: 5% 0;
+  margin: 0;
+}
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+
+input {
+  padding: 1%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 1.5% 5%;
+  background-color: #555;
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+#footer {
+  background-color: #444;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
